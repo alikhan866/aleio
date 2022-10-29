@@ -1,0 +1,26 @@
+.slide-pane__title-wrapper {
+  background-color: white;
+}
+
+.slide-pane__close {
+  display: none;
+}
+
+.slide-pane__header {
+  background-color: white;
+  border-bottom: none;
+  padding-top: 50px;
+}
+
+.slide-pane .slide-pane__title {
+  font-size: 18px;
+  font-weight: normal;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 0;
+  padding: 0;
+  padding-right: 50px;
+  padding-top: 0px;
+}

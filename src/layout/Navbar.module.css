@@ -1,0 +1,92 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+}
+.navLeftContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100%;
+  width: 100%;
+  gap: 40px;
+}
+.navLeftContainer img {
+  padding-right: 20px;
+}
+.mainContainer a {
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.mobileNavContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.paneHeader {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.paneHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+}
+.slidingPaneMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100%;
+}
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+  padding-top: 70px;
+}
+.topContainer a:first-child {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 28px;
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+}
+.topContainer a {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 28px;
+}
+.bottomContainer span:first-child {
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 18px;
+}
+.bottomContainer span {
+  font-family: "Open Sans";
+  font-weight: 400;
+  font-size: 18px;
+}
+@media screen and (max-width: 1024px) {
+  .navLeftContainer {
+    gap: 20px;
+  }
+  .mainContainer a {
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

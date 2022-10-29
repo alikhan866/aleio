@@ -1,0 +1,65 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+.img {
+  width: 100%;
+  height: max-content;
+  filter: grayscale(100);
+}
+.price {
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  font-weight: 700;
+}
+.name {
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
+  font-weight: 400;
+}
+.icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+@media screen and (max-width: 765px) {
+  .img {
+    filter: grayscale(0);
+  }
+  .price,
+  .name {
+    position: static;
+    color: black;
+  }
+  .price {
+    padding-top: 5px;
+  }
+  .name {
+    text-align: right;
+  }
+  .container {
+    text-align: left;
+  }
+  .buttonContainer button {
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 5px 10px;
+    height: 40px;
+    width: 180px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+  }
+  .buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
